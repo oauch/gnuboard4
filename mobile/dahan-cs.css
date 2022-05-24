@@ -1,0 +1,42 @@
+@charset "euc-kr";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+img {border:0px;}
+
+body {background-color:#FFFFFF; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px;}
+
+
+#logo a{text-decoration:none; font-size:16px; color:#000; font-family:Nanum Gothic, sans-serif; font-weight:bold; letter-spacing:-1;}
+#menu{height:40px;}
+#menu td{background:url(images/menudot.png) right no-repeat;}
+#menu td a{text-decoration:none; font-size:13px; color:#fff; font-family:Nanum Gothic, sans-serif; font-weight:bold; line-height:40px;}
+
+.btline{border-bottom:1px solid #eaeaea; border-top:1px solid #eaeaea;}
+#bottombt{height:35px;}
+#bottombt td{background:url(images/bottomline.jpg) right no-repeat;}
+#bottombt td a{text-decoration:none; font-size:10px; color:#666; font-family:Nanum Gothic, sans-serif; line-height:35px;}
+
+
+#bodywrap {width:100%; min-width:100px; margin:0; padding:0;}
+
+#mpagem01 td a.m01, #mpagem02 td a.m02, #mpagem03 td a.m03 {color:#b6b6b6;}
+
+.copy{font-size:10px; color:#666; font-family:Nanum Gothic, sans-serif; line-height:140%; padding:20px 0px 10px 0px;}
+
+/* °øÅë */
+.normal{font-size:15px; line-height:150%; color:#666;}
+h3{font-family:'Nanum Square'; font-size:18px; margin-bottom:10px; padding-left:30px; color:#484848; background:url(/gnuboard4/images/sub_h3.jpg) left center no-repeat;}
+h2{width:30%; float:left; font-size:20px; font-family:'Nanum Square'; text-align:center;
+  border-top:1px solid #dfdfdf;
+  border-left:1px solid #dfdfdf;
+  border-right:1px solid #dfdfdf;
+  box-sizing:border-box;
+  color:#019ee1;
+  padding:15px 0px;
+}
+.line{width:70%; float:left; border-bottom:1px solid #dfdfdf; box-sizing:border-box; margin-top:53px;}
+
+/* sub0301 */
+.sub0301 table{border-collapse:collapse; margin-bottom:70px;}
+.sub0301 td, .sub0301 th{border:1px solid #dfdfdf; font-size:15px; color:#666; padding:5px 0px; text-align:center;}
+.sub0301 th{background:#019ee1; color:#fff; border-bottom:3px solid #007db2; width:25%;}

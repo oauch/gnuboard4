@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px;}
+body, td, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, textarea{font-family:Nanum Gothic, sans-serif; font-size:10pt;}
+
+
+
+/* list */
+#prf-name a { font-size:10pt; color:#847f74; text-decoration:none;}
+#more-bt a { background:#3f3f3f; color:#fff; text-decoration:none; font-size:8pt; padding:3px 0px;text-align:center; width:60px;display:inline-block; margin-left:1px;}
+
+
+
+/* view */
+.prf-name{color:#4e4e4e; font-size:35px;}
+.prf-name span{color:#c4c4c4; font-size:25px;}
+.prf-name div{padding:5px 0px 15px 0px; _padding:0px 0px 15px 0px;  color:#9a9a9a; font-size:20px;    }
+.prf-border {border-top:3px solid #4e4e4e; border-bottom:1px solid #dfdfdf;}
+.prf-table  {padding-top:2px solid #4e4e4e;}
+.prf-table td{color:#9a9a9a;}
+.bg-white{padding:20px;}
+.bg-grey {background:#f9f9f9; padding:20px; border-top:1px dashed #dfdfdf;  border-bottom:1px dashed #dfdfdf; }
+.prf-title{ padding-left:15px; font-weight:bold; margin:0px 0px 10px 0px; color:#5d5d5d; font-size:15px; background:url(/gnuboard4/skin/board/4-etc-profile/images/pro-title.gif) left 30% no-repeat;}
+
+
+
+/* search */
+.board_search {text-align:right; margin:30px 0 0 0; }
+.board_search .stx { height:21px; border:1px solid #9A9A9A; border-right:1px solid #D8D8D8; border-bottom:1px solid #D8D8D8; }
+
+
+
+/* write */
+.write_head {font-size:11pt; height:40px; text-align:center; color:#847f74; background-color:#ffffff; border-right:1px solid #a9a9a9;}
+.write_head01 {font-size:11pt; height:40px; text-align:center; color:#847f74;}
+.write_text {padding-left:10px;}
+.field {border:1px solid #ccc;}
+
+
+
+
+/* board_btn  */  
+#board_button a {height:26px; line-height:26px; color:#aeaeae; font-weight:bold; font-size:8pt; text-decoration:none; background-color:#fafafa; border:1px solid #aeaeae; padding:0px 8px 0px 8px; display:inline-block;}
+#board_button #board_button2, #board_button2 {height:26px; line-height:26px; color:#f8f8f8; font-weight:bold; font-size:8pt; text-decoration:none; background-color:#4b4b4b; border:1px solid #111111; padding:0px 8px 0px 8px; letter-spacing:2; display:inline-block;}
+
+.btn_write {vertical-align:middle; height:27px; line-height:23px; color:#f8f8f8; font-weight:bold; font-size:8pt; text-decoration:none; background-color:#4b4b4b; border:1px solid #111111;}
+
+.btn_coment {height:50px; color:#aeaeae; font-weight:bold; font-size:8pt; text-decoration:none; background-color:#fafafa; border:1px solid #aeaeae; padding:6px 8px 6px 8px;}
+
+.btn_search {color:#f8f8f8; font-weight:bold; font-size:8pt; padding:0px 7px 3px 7px; height:20px; line-height:20px; background-color:#4b4b4b; border:1px solid #111111; text-decoration:none; letter-spacing:2;}
+
+
+
+
+/* board page btn  */ 
+.board_page {clear:both; text-align:center; margin:3px 0px 0px 0px;}
+.board_page a:link {font-size:9pt; color:#777;}
+
+#pagenation {padding:0; font-size:12px; text-align:center; }
+#pagenation li {display:inline; border:1px solid #f0f0f0; margin:0 3px; padding:5px;}
+#pagenation li a {color:#737373; text-decoration:none;}
+#pagenation li a img {vertical-align:middle;}
+#pagenation li.on {background:#4b4b4b; color:#ffffff; text-decoration:none;}
+#pagenation li.on a {color:#ffffff; text-decoration:none;}
+
+input.ed{height:32px;}

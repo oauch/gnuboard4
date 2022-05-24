@@ -1,0 +1,6 @@
+<?=latest("gallery", "sub04_01", 5, 0); // 최신글 ?>
+ 
+
+<?=latest("gallery01", "portfolio", 4, 8); // 최신글 ?>
+                                  
+폴더명 / 게시판이름 / 가로개수  / 총개수 

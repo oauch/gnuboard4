@@ -1,0 +1,69 @@
+
+
+/* UI paginate */
+.paginate_complex{ float:left;width:100%;line-height:normal;text-align:center;padding:20px 0 0 0; margin-bottom:20px;}
+.paginate_complex a,
+.paginate_complex strong{display:inline-block;position:relative;z-index:2;margin:0 -3px;padding:1px 8px;border-left:1px solid #d6d6d6;border-right:1px solid #d6d6d6;background-color:#fff;font:bold 12px/16px Tahoma, Sans-serif;color:#323232;text-decoration:none;vertical-align:top}
+.paginate_complex a:hover,
+.paginate_complex a:active,
+.paginate_complex a:focus{}
+.paginate_complex strong{color:#7494cd;}
+.paginate_complex .direction{border:0;top:1px;font-weight:normal;color:#777;text-decoration:none !important;z-index:1}
+.paginate_complex .direction:hover,
+.paginate_complex .direction:active,
+.paginate_complex .direction:focus{color:#323232;background-color:#fff}
+.paginate_complex .prev{border-left:0;}
+.paginate_complex .next{border-right:0;}
+.paginate_complex .direction span{display:inline-block;position:relative;top:4px;width:0;height:0;font-size:0;line-height:0;vertical-align:top;}
+.paginate_complex .prev span{*left:-4px;margin-right:1px;border:3px solid;border-top:solid #fff;border-bottom:solid #fff;border-left:0;}
+.paginate_complex .next span{margin-left:1px;border:3px solid;border-top:solid #fff;border-bottom:solid #fff;border-right:0;}
+
+
+/* list */
+#tap-faq-mu a{ list-style:none; float:left; background:#f3f3f3; color:a2a2a2; padding:8px 20px;  font-size:10pt; margin-right:7px; border:1px solid #e5e5e5;}
+#tap-faq-mu a:hover{  text-decoration:none; font-weight:bold;}
+#tap-faq-mu-sel {list-style:none;  }
+#tap-faq-mu-sel a{ text-decoration:none; font-size:10pt; color:#ffffff; font-weight:bold; background:#ff522c; padding:8px 20px; border:1px solid #ff522c; }
+
+
+/* tap */
+.tb_faq{border:1px solid #dcdcdc; height:50px;}
+.tb_faq .faq-title{color:7b7b7b; font-size:10pt; font-weight:bold;}
+.tb_faq b{color:4b4b4b; font-size:17px; font-family:arial; padding-right:10px; padding-left:30px;}
+#tb_faq02 td{color:4b4b4b; font-size:10pt; text-decoration:none; }
+#tb_faq02 a:hover{color:4b4b4b; font-size:10pt; text-decoration:none;}
+#tb_faq03 td{color:818181; font-size:9.5pt; text-decoration:none; line-height:18px;}
+
+
+
+/* write */
+.write_head {font-size:11pt; height:40px; text-align:center; color:#847f74; background-color:#ffffff; border-right:1px solid #a9a9a9; }
+.write_head01 {font-size:11pt; height:40px; text-align:center; color:#847f74;}
+.write_text {padding-left:10px;}
+.field {border:1px solid #ccc;}
+
+
+/* board_btn  */  
+#board_button a {height:26px; line-height:26px; color:#aeaeae; font-weight:bold; font-size:8pt; text-decoration:none; background-color:#fafafa; border:1px solid #aeaeae; padding:0px 8px 0px 8px; display:inline-block;}
+#board_button #board_button2, #board_button2 {height:26px; line-height:26px; color:#f8f8f8; font-weight:bold; font-size:8pt; text-decoration:none; background-color:#4b4b4b; border:1px solid #111111; padding:0px 8px 0px 8px; letter-spacing:2; display:inline-block;}
+
+.btn_write {vertical-align:middle; height:27px; line-height:23px; color:#f8f8f8; font-weight:bold; font-size:8pt; text-decoration:none; background-color:#4b4b4b; border:1px solid #111111;}
+
+.btn_coment {height:50px; color:#aeaeae; font-weight:bold; font-size:8pt; text-decoration:none; background-color:#fafafa; border:1px solid #aeaeae; padding:6px 8px 6px 8px;}
+
+.btn_search {color:#f8f8f8; font-weight:bold; font-size:8pt; padding:0px 7px 3px 7px; height:20px; line-height:20px; background-color:#4b4b4b; border:1px solid #111111; text-decoration:none; letter-spacing:2;}
+
+
+
+/* board page btn  */ 
+.board_page {clear:both; text-align:center; margin:3px 0px 0px 0px;}
+.board_page a:link {font-size:9pt; color:#777;}
+
+#pagenation {padding:0; font-size:12px; text-align:center; }
+#pagenation li {display:inline; border:1px solid #f0f0f0; margin:0 3px; padding:5px;}
+#pagenation li a {color:#737373; text-decoration:none;}
+#pagenation li a img {vertical-align:middle;}
+#pagenation li.on {background:#4b4b4b; color:#ffffff; text-decoration:none;}
+#pagenation li.on a {color:#ffffff; text-decoration:none;}
+
+input.ed{height:32px;}

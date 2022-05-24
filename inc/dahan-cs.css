@@ -1,0 +1,160 @@
+@charset "euc-kr";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url("//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css");
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+img {border:0px;}
+
+body {overflow-x:hidden; background-color:#FFFFFF; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px; font-family: Malgun Gothic, dotum, sans-serif; font-size: 11px; }
+*{margin:0px; padding:0px; list-style:none;}
+
+/* 공통 */
+.mainbg { background-image:url(/gnuboard4/images/mainbg.jpg);
+          background-repeat:no-repeat;
+          background-position:center top; }
+
+.subbg { background-image:url(/gnuboard4/images/subbg.jpg);
+          background-repeat:no-repeat;
+          background-position:center top; }
+
+
+
+.main {position:relative; z-index:1;}
+.m_flash {position:absolute; z-index:1;}
+.quick{position:absolute; width:100%; height:205px; padding-top:245px; z-index:3;}
+.quick img{position:absolute; z-index:3; left:575px;}
+.m_text{position:absolute; text-align:left; width:100%; height:450px; z-index:2;}
+
+
+.copy {
+	background-color:#505050;
+	height:80px;
+}
+.copyaddress {
+	color:#999;
+	font-size:11px;
+}
+}
+
+#tonavi {
+	color:#939393;
+	font-size:11px;
+	padding-left:10px;
+	font-family: Malgun Gothic, dotum, sans-serif;
+	text-decoration:none;
+}
+
+#tonavi a{
+	color:#939393;
+	font-size:11px;
+	padding-right:12px;
+	font-family: Malgun Gothic, dotum, sans-serif;
+	text-decoration:none;
+}
+
+
+
+.title { font-family: Malgun Gothic, dotum, sans-serif; font-size:18px; color:#15b6f6; text-align:left; letter-spacing:-1px; text-decoration:none; font-weight:bold; line-height:46px; padding-left:12px;}
+.bigtitle {font-family: Malgun Gothic, dotum, sans-serif; font-size:18px; color:#15b6f6; text-align:left; letter-spacing:-1px; text-decoration:none; font-weight:bold; line-height:46px; padding-left:12px;}
+
+/*topmenu시작 */
+.topmenu { border:1px #efefef solid; background-image:url(/gnuboard4/images/tm_r.gif); background-position:left top; background-repeat:repeat; height:50px;}
+#topmenu a{font-family:Malgun Gothic, dotum, sans-serif; font-size:13px; color:#717171; text-decoration:none; font-weight:bold; padding:17px 80px 13px 12px; background-image:url(/gnuboard4/images/tm_line.gif); background-position:right top; background-repeat:no-repeat; height:50px;}
+#topmenu a:hover{font-family:Malgun Gothic, dotum, sans-serif; font-size:13px; color:#0496c6; text-decoration:none; font-weight:bold; padding:17px 80px 13px 12px; background-image:url(/gnuboard4/images/tm_line.gif); background-position:right top; background-repeat:no-repeat; height:50px;}
+
+#head01 a.top1, #head02 a.top2, #head03 a.top3, #head04 a.top4, #head05 a.top5
+{font-family:Malgun Gothic, dotum, sans-serif; font-size:13px; color:#0496c6; text-decoration:none; font-weight:bold; padding:17px 80px 13px 12px; background-image:url(/gnuboard4/images/tm_line.gif); background-position:right top; background-repeat:no-repeat; height:50px;}
+/*topmenu end*/
+
+
+/* submenu시작 */
+#menu_sub a{
+	padding:0px 0px 2px 20px; /* 내부여백 padding값 순서대로 top right bottom left */
+	color:#656565; /* 글자색 */
+	font-family: Malgun Gothic, dotum, sans-serif; font-size: 14px;
+	text-decoration:none;
+	line-height:30px;
+	width:200px;
+	font-weight:800;
+	float:left;
+	background-image:url(/gnuboard4/images/smb.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#menu_sub a:hover{
+	background-image:url(/gnuboard4/images/smb_on.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	font-family: Malgun Gothic, dotum, sans-serif; font-size: 14px;
+	color:#ffffff; /* 폰트 색상 */
+	width:200px;
+	padding:0px 0px 2px 20px;
+	line-height:30px;
+	font-weight:800;
+	float:left;
+}
+
+
+#page0101 #menu_sub a.menu1, #page0102 #menu_sub a.menu1_2, #page0103 #menu_sub a.menu1_3, #page0104 #menu_sub a.menu1_4, #page0105 #menu_sub a.menu1_5,
+#page0201 #menu_sub a.menu2, #page0202 #menu_sub a.menu2_2, #page0203 #menu_sub a.menu2_3, #page0204 #menu_sub a.menu2_4, #page0205 #menu_sub a.menu2_5,
+#page0301 #menu_sub a.menu3, #page0302 #menu_sub a.menu3_2, #page0303 #menu_sub a.menu3_3, #page0304 #menu_sub a.menu3_4, #page0305 #menu_sub a.menu3_5,
+#page0401 #menu_sub a.menu4, #page0402 #menu_sub a.menu4_2, #page0403 #menu_sub a.menu4_3, #page0404 #menu_sub a.menu4_4, #page0405 #menu_sub a.menu4_5,
+#page0501 #menu_sub a.menu5, #page0502 #menu_sub a.menu5_2, #page0503 #menu_sub a.menu5_3, #page0504 #menu_sub a.menu5_4, #page0505 #menu_sub a.menu5_5{
+	background-image:url(/gnuboard4/images/smb_on.jpg);
+	background-repeat:no-repeat;
+	background-position:left top;
+	font-family: Malgun Gothic, dotum, sans-serif; font-size: 14px;
+	color:#ffffff; /* 폰트 색상 */
+	width:200px;
+	padding:0px 0px 2px 20px;
+	line-height:30px;
+	font-weight:800;
+	float:left;
+}
+/* submenu끝 */
+
+/* 공통 */
+.normal{font-size:15px; line-height:150%; color:#666;}
+h3{font-family:'Nanum Square'; font-size:18px; margin-bottom:10px; padding-left:30px; color:#484848; background:url(/gnuboard4/images/sub_h3.jpg) left center no-repeat;}
+h2{width:30%; float:left; font-size:20px; font-family:'Nanum Square'; text-align:center;
+  border-top:1px solid #dfdfdf;
+  border-left:1px solid #dfdfdf;
+  border-right:1px solid #dfdfdf;
+  box-sizing:border-box;
+  color:#019ee1;
+  padding:15px 0px;
+}
+.line{width:70%; float:left; border-bottom:1px solid #dfdfdf; box-sizing:border-box; margin-top:53px;}
+
+/* sub0101 */
+.sub0101{text-align:center;}
+.sub0101 figure{background:url(/gnuboard4/images/sub0101.jpg) center bottom no-repeat; background-size:cover; padding:70px 0px 450px 0px;}
+.sub0101 h4{font-family: 'Nanum Myeongjo', serif; font-size:22px; color:#019ee1; margin-bottom:15px;}
+.sub0101 .text{color:#484848; font-size:18px; line-height:160%;}
+
+/* sub0102 */
+.sub0102 ul{margin-bottom:50px; padding-bottom:50px; border-bottom:1px solid #dfdfdf;}
+.sub0102 li{width:25%; float:left; box-sizing:border-box; padding:0px 3px 0px 3px;}
+.sub0102 h4{color:#fff; background:rgba(0, 0, 0, 0.6); text-align:center; font-size:16px; padding:3px 0px; border-bottom:1px solid #000;}
+.sub0102 li div{background-size:contain; padding-top:210px;}
+
+.img01{background:url(/gnuboard4/images/sub0102_1.jpg) center bottom no-repeat;}
+.img02{background:url(/gnuboard4/images/sub0102_2.jpg) center bottom no-repeat;}
+.img03{background:url(/gnuboard4/images/sub0102_3.jpg) center bottom no-repeat;}
+.img04{background:url(/gnuboard4/images/sub0102_4.jpg) center bottom no-repeat;}
+.img05{background:url(/gnuboard4/images/sub0102_5.jpg) center bottom no-repeat;}
+.img06{background:url(/gnuboard4/images/sub0102_6.jpg) center bottom no-repeat;}
+.img07{background:url(/gnuboard4/images/sub0102_7.jpg) center bottom no-repeat;}
+.img08{background:url(/gnuboard4/images/sub0102_8.jpg) center bottom no-repeat;}
+.img09{background:url(/gnuboard4/images/sub0102_9.jpg) center bottom no-repeat;}
+.img10{background:url(/gnuboard4/images/sub0102_10.jpg) center bottom no-repeat;}
+
+/* sub0201 */
+.sub0201 figure{border-bottom:1px solid #dfdfdf; border-left:1px solid #dfdfdf; border-right:1px solid #dfdfdf; padding:20px;}
+
+/* sub0301 */
+.sub0301 table{border-collapse:collapse; margin-bottom:70px;}
+.sub0301 td, .sub0301 th{border:1px solid #dfdfdf; font-size:15px; color:#666; padding:5px 0px; text-align:center;}
+.sub0301 th{background:#019ee1; color:#fff; border-bottom:3px solid #007db2; width:25%;}

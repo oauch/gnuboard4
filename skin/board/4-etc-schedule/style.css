@@ -1,0 +1,40 @@
+@charset "euc-kr";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/* Æû ¼Ó¼º */
+.bbs_form { margin:0; }
+.bbs_ft   { border-color:#dadada; border-style:solid; border-width:1px; }
+.bbs_ft1  { background-color:#000000; color:#ffffff;}
+.bbs_fa   { border:1px solid #dadada; width:100%; line-height:150%; }
+
+/* Ç¥ ¿©¹é */
+.bbs_pl { PADDING-LEFT : 15px; }
+.bbs_pr { PADDING-RIGHT :15px; }
+.bbs_pt { PADDING-TOP :   5px; }
+.bbs_pp { PADDING :       5px; }
+
+/* Ç¥ »ö»ó */
+.bbs_head   { height:22px; background:url(./img/bg_cal_day.gif);}
+.bbs_line1  { background-color:#ffffff; height:1px; }
+.bbs_line2  { background-color:#646464; height:1px; }
+.bbs_notice { background-color:#F5F5F5; }
+
+.tbline1   {font-family:Nanum Gothic, ³ª´®°íµñ, sans-serif; border-top: 1px solid #B7BDCC; border-right: 1px solid #B7BDCC;}
+.tbline2   {font-family:Nanum Gothic, ³ª´®°íµñ, sans-serif; border-bottom: 1px solid #B7BDCC; border-left: 1px solid #B7BDCC; }
+.tbline3   {font-family:Nanum Gothic, ³ª´®°íµñ, sans-serif; border-bottom: 1px solid #B7BDCC;}
+.tbline4   {font-family:Nanum Gothic, ³ª´®°íµñ, sans-serif; border: 1px solid #B7BDCC;}
+
+/* ±ÛÀÚ ¼Ó¼º */
+.bbs_fhead   { font-family:Nanum Gothic, ³ª´®°íµñ, sans-serif; color:#797D88; font-weight:bold;}
+.bbs_fs      { font-family:Nanum Gothic, ³ª´®°íµñ, sans-serif; color:#888888; font-size:11px; }
+.bbs_content { font-family:Nanum Gothic, ³ª´®°íµñ, sans-serif; color:#000000; }
+
+/* ¸¶¿ì½º ¼Ó¼º */
+.bbs_point { CURSOR: pointer; }
+
+/* view comment */
+.c_tc { word-break:break-all; text-align:justify; color:#575757; line-height:150%; background:#F9F9F9; padding:8px;}
+.c_tl { background-color:#DADADA; height:1px; }
+
+
+input.ed{height:32px;}
+
